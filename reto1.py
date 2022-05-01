@@ -1,9 +1,10 @@
-#Reto1
+# Reto1
 
 caserioFeliz = int(input())
 puebloNuevo = int(2 * caserioFeliz + 4)
 Anserma = int((puebloNuevo + caserioFeliz) / 5)
 print(caserioFeliz, puebloNuevo, Anserma)
+
 
 def clasificar():
     if (0 <= Anserma <= 20):
@@ -14,5 +15,6 @@ def clasificar():
         print("tres")
     elif (Anserma >= 80):
         print("cuatro")
-clasificar()
 
+
+clasificar()
