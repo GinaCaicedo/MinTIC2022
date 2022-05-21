@@ -1,4 +1,4 @@
-password=input()
+password="a,a,b,b,c,d,f,f"
 caracter=password.split(",")
 inicial=""
 cont=0

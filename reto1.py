@@ -12,7 +12,7 @@ También se requiere clasificar la población “La Esperanza” dependiendo de 
 · Si es mayor que 80 se clasificada como categoría cuatro.
 
 """
-caserioFeliz = int(input())
+caserioFeliz = int(5)
 puebloNuevo = int(2 * caserioFeliz + 4)
 Anserma = int((puebloNuevo + caserioFeliz) / 5)
 print(caserioFeliz, puebloNuevo, Anserma)
